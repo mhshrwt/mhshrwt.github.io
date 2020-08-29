@@ -1,0 +1,193 @@
+a{
+  color: inherit;
+}
+.unslect {
+    user-select: none; 
+   -webkit-user-select: none;
+   -khtml-user-select: none; 
+   -moz-user-select: none; 
+   -ms-user-select: none; 
+}
+.header{
+  width:100%;
+  height:300px;
+  background-color:#000000;
+  background:url(https://images.pexels.com/photos/1323206/pexels-photo-1323206.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-position:center;
+  background-size:100%;
+  
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.header-image{
+  height:100%;
+  width:100%;
+}
+
+.stipe{
+  width:100%;
+  height:30px;
+  background:#C0C0C0;
+  transition: height 1s;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.stipe:hover{
+  height:100px;
+}
+
+.stripe-menu{
+  text-align:center;
+  display:none;
+}
+
+.stipe:hover > .stripe-menu{
+  display:block;
+}
+
+.stipe:hover > .stripe-menu-outer{
+  display:none;
+}
+
+.stripe h6:hover {
+  display: none ;
+}
+
+.stripe-menu-item{
+  font-size:18px;
+  font-weight:bold;
+  margin-left:10px;
+  margin-right:10px;
+  border-bottom:4px solid transparent;
+  cursor: pointer;
+}
+
+.stripe-menu-item:hover{
+  color:#13c4a5;
+/*   border-color:#13c4a5; */
+}
+
+.mhs-p1{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top:20px;
+  padding-bottom:20px;
+  background: #f1f1f1;
+}
+.mhs-c1{
+  width:80%;
+  background:#ffffff;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.5s;
+}
+
+.mhs-c1:hover{
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.doraenix{
+  font-family: 'Rock Salt', cursive;
+  width: fit-content;
+  color: #FFFFFF;
+  text-shadow: 2px 2px #FFFFFF7F;
+  border:4px solid #fff;
+  border-radius: 10px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.doraenix:hover{
+  border-color: #13c4a5;
+}
+
+.doraenix:hover > h1{
+   color: #13c4a5;
+   transition: all 0.3s;
+  
+}
+
+
+.doraenix h1{
+  padding: 20px;
+}
+
+
+
+.home-test{
+  font-family: 'Roboto Slab', serif;
+  margin-left : 16px;
+  margin-top  : 10px;
+  font-size: 28px;
+  
+}
+
+
+.home-test:hover{
+  color : #13c4a5;
+    transition: all 0.3s;
+}
+.home-graph{
+  font-size: 20px;
+  font-family: none;
+  margin-left: 12px;
+ 
+}
+.st{
+  margin-left:25px;
+  margin-right: 25px;
+  text-align: justify;
+}
+
+
+.home-card-image-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-card-image{
+  width: 80%
+}
+.dog-text{
+  margin-left:25px;
+  margin-right: 25px;
+  text-align: justify;
+  font-weight: initial;
+}
+.line{
+  height:10%;
+
+
+}
+
+.download-btn-black{
+  background-color: black;
+  color: white;
+}
+.download-btn-black:hover{
+  color: white;
+}
+
+.intro{
+  margin-top: 50px;
+
+  font-size: 30px;
+  background: grey;
+  border-radius: 28px;
+ text-align: center;
+
+}
+.lightroomintro{
+
+   margin-left : 16px;
+  margin-top  : 10px;
+  font-size: 20px;
+  font-style: bold ;
+
+}
